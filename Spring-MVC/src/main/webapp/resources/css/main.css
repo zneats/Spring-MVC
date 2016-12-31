@@ -1,7 +1,14 @@
-@CHARSET "UTF-8";
+/* /* @CHARSET "UTF-8";
 
-/*å…¬ç”¨*/
+¹«ÓÃ
 .comWidth{width:1000px;margin-left:auto;margin-right:auto}
 
-/*topBar*/
 .topBar{height:30;background-color:0066CC}
+ */
+ 
+ body{
+ width:500px;
+ background-color:red;
+ }
+ 
+ 
