@@ -13,7 +13,7 @@
 <meta http-equiv="keywords" content="乐器商城,乐器,吉他">
 <meta http-equiv="description" content="描述信息">
 <!-- CSS -->
-<link href="<c:url value="/webapp/resources/css/main.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
 <%-- <link href="<c:url value="/resources/css/reset.css" />" rel="stylesheet"> --%>
 </head>
 
