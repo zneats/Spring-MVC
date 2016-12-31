@@ -1,38 +1,38 @@
-/* /* @CHARSET "UTF-8";
+@CHARSET "UTF-8";
 
 
-* Çå³ıÄÚÍâ±ß¾à *
-body, div, p, h1, h2, h3, h4, h5, h6, blockquote,  structural elements ½á¹¹ÔªËØ
-dl, dt, dd, ul, ol, li, list elements ÁĞ±íÔªËØ
-pre,  text formatting elements ÎÄ±¾¸ñÊ½ÔªËØ
-form, fieldset, legend, button, input, textarea,  form elements ±íµ¥ÔªËØ
-table,th,td table elements ±í¸ñÔªËØ{
+* æ¸…é™¤å†…å¤–è¾¹è· *
+body, div, p, h1, h2, h3, h4, h5, h6, blockquote,  structural elements ç»“æ„å…ƒç´ 
+dl, dt, dd, ul, ol, li, list elements åˆ—è¡¨å…ƒç´ 
+pre,  text formatting elements æ–‡æœ¬æ ¼å¼å…ƒç´ 
+form, fieldset, legend, button, input, textarea,  form elements è¡¨å•å…ƒç´ 
+table,th,td table elements è¡¨æ ¼å…ƒç´ {
 	margin:0;
 	padding:0;
 }
 
 body,
 button, input, select, textarea for ie {
-    font: 12px/24px Arial, 'Microsoft Yahei',"ËÎÌå", sans-serif;    border:0;
+    font: 12px/24px Arial, 'Microsoft Yahei',"å®‹ä½“", sans-serif;    border:0;
     outline:0;
 }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; }
-address, cite, em, i { font-style: normal; } ½«Ğ±Ìå·öÕı
-small { font-size: 12px; } Ğ¡ÓÚ 12px µÄÖĞÎÄºÜÄÑÔÄ¶Á£¬ÈÃ small Õı³£»¯
+address, cite, em, i { font-style: normal; } å°†æ–œä½“æ‰¶æ­£
+small { font-size: 12px; } å°äº 12px çš„ä¸­æ–‡å¾ˆéš¾é˜…è¯»ï¼Œè®© small æ­£å¸¸åŒ–
 
-* ÖØÖÃÁĞ±íÔªËØ *
+* é‡ç½®åˆ—è¡¨å…ƒç´  *
 li { list-style: none; }
 
-* ÖØÖÃÎÄ±¾¸ñÊ½ÔªËØ *
+* é‡ç½®æ–‡æœ¬æ ¼å¼å…ƒç´  *
 a { text-decoration: none;color:#000; }
 a:hover { text-decoration: none; }
 
-* ÖØÖÃ±íµ¥ÔªËØ *
+* é‡ç½®è¡¨å•å…ƒç´  *
 legend { color: #000; } for ie6
-fieldset, img { border: 0;display:block; } img ´î³µ£ºÈÃaÁ´½ÓÀïµÄ img ÎŞ±ß¿ò
-button, input, select, textarea { font-size: 100%; line-height:normal; } Ê¹µÃ±íµ¥ÔªËØÔÚ ie ÏÂÄÜ¼Ì³Ğ×ÖÌå´óĞ¡
+fieldset, img { border: 0;display:block; } img æ­è½¦ï¼šè®©aé“¾æ¥é‡Œçš„ img æ— è¾¹æ¡†
+button, input, select, textarea { font-size: 100%; line-height:normal; } ä½¿å¾—è¡¨å•å…ƒç´ åœ¨ ie ä¸‹èƒ½ç»§æ‰¿å­—ä½“å¤§å°
 
-* ÖØÖÃ±í¸ñÔªËØ *
+* é‡ç½®è¡¨æ ¼å…ƒç´  *
 table{ border-collapse: collapse; border-spacing: 0; }
 input[type="button"],input[type="submit"],input[type="reset"]{cursor:pointer;}
 
@@ -41,7 +41,7 @@ iframe{
 	display:block;
 }
 
-Çå¸¡¶¯
+æ¸…æµ®åŠ¨
 .clearfix:after {
 	visibility:hidden;
 	display:block;
@@ -54,5 +54,5 @@ iframe{
 	zoom:1; for IE6 IE7
 }
 
-
- */ 
+.fr{float: right;}
+.fl{float: left;}
